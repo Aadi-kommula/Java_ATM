@@ -8,7 +8,11 @@ class BankAccount {
     private String pin;
     private double dailyWithdrawalLimit = 500.0;
     private double amountWithdrawnToday = 0.0;
-
+    
+/*Author:Aadi Kommula
+ * Mail:aadikommula@gmail.com
+ * Date:22-09-2024
+ */
     
     public BankAccount(double initialBalance, String pin) {
         this.balance = initialBalance;
